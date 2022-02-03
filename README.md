@@ -17,8 +17,6 @@ Clone the repository and run the python scripts. The scripts require python 3 wi
 
 The plasmid library is randomly broken and sequenced. We have to remove the plasmid backbone from the reads to extract the metagenomic insert.
 
-*all input files as .fasta*
-
 Prepare the following files:
 - library_reads.fasta: The nanopore reads of the library. Run nanofilt to beforehand for QC of appropriate approximate length and read quality.
 - backbone.fasta: The plasmid backbone sequence
