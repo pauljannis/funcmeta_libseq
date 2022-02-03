@@ -1,5 +1,6 @@
 # funcmeta_libseq
 **Characterization of functional metagenomics libraries with long-read sequencing**
+
 Sequencing of libraries used in functional metagenomic screenings with long-read technologies, such as nanopore sequencing, can provide information of library quality and diversity as well as alleviate the need for time consuming primer walking determination of hit sequences. The scripts that will be collected here can be used to analyse such nanopore sequencing data of metagenomic libraries as, for example, used in Steffi's PhD thesis.
 
 
