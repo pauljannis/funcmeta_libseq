@@ -16,7 +16,9 @@ Clone the repository and run the python scripts. The scripts require python 3 wi
 ## Insert extraction
 
 The plasmid library is randomly broken and sequenced. We have to remove the plasmid backbone from the reads to extract the metagenomic insert.
+
 *all input files as .fasta*
+
 Prepare the following files:
 - library_reads.fasta: The nanopore reads of the library. Run nanofilt to beforehand for QC of appropriate approximate length and read quality.
 - backbone.fasta: The plasmid backbone sequence
@@ -34,6 +36,7 @@ The extracted inserts can be further analysed for diversity and will be used to 
 
 ## Find and polish hit
 Once hits are found via functional screening, the hits only need to be Sanger sequenced once at one end. We can look for matches to this hit within the nanopore insert and polish it via consensus assembly, which should be very accurate if a few reads can be collected (*see Zurek et al. [2020](https://www.nature.com/articles/s41467-020-19687-9)*) .
+
 Input files:
 - query.ab1 / query.fasta: Parial sequence of hit after screening obtained by Sanger in ab1 or fasta format
 - extracted_inserts.fasta: Insert reads extracted in the previous step
